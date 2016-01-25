@@ -1,0 +1,789 @@
+/* Base CSS */
+/* line 6, D:/xampp/htdocs/unicorn/noex.scss */
+.floatleft {
+  float: left; }
+
+/* line 7, D:/xampp/htdocs/unicorn/noex.scss */
+.floatright {
+  float: right; }
+
+/* line 8, D:/xampp/htdocs/unicorn/noex.scss */
+.alignleft {
+  float: left;
+  margin-right: 15px; }
+
+/* line 12, D:/xampp/htdocs/unicorn/noex.scss */
+.alignright {
+  float: right;
+  margin-left: 15px; }
+
+/* line 16, D:/xampp/htdocs/unicorn/noex.scss */
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px; }
+
+/* line 20, D:/xampp/htdocs/unicorn/noex.scss */
+a:focus {
+  outline: 0px solid; }
+
+/* line 21, D:/xampp/htdocs/unicorn/noex.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 25, D:/xampp/htdocs/unicorn/noex.scss */
+.fix {
+  overflow: hidden; }
+
+/* line 31, D:/xampp/htdocs/unicorn/noex.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px; }
+
+/* line 33, D:/xampp/htdocs/unicorn/noex.scss */
+html,
+body {
+  height: 100%; }
+
+/* line 34, D:/xampp/htdocs/unicorn/noex.scss */
+body {
+  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 30px; }
+
+/* line 41, D:/xampp/htdocs/unicorn/noex.scss */
+h1,
+h3 {
+  color: white; }
+
+/* line 45, D:/xampp/htdocs/unicorn/noex.scss */
+.section-padding {
+  padding: 100px 0; }
+
+/* line 50, D:/xampp/htdocs/unicorn/noex.scss */
+#slider,
+.slide-text-table,
+#slider .container,
+#slider .row,
+#slider .col-md-12 {
+  height: 100%; }
+
+/* line 51, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(img/intro-bg-new.jpg);
+  background-attachment: fixed; }
+
+/* line 62, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-text-table {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+/* line 67, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-text-table-cell {
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 71, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-text {
+  max-width: 520px;
+  float: right;
+  text-align: right;
+  font-size: 18px;
+  line-height: 30px; }
+
+/* line 78, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-text h1 {
+  font-size: 82px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  position: relative;
+  margin-top: 50px; }
+
+/* line 86, D:/xampp/htdocs/unicorn/noex.scss */
+.slide-text h1:before {
+  background: white;
+  height: 4px;
+  width: 140px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: ""; }
+
+/* line 95, D:/xampp/htdocs/unicorn/noex.scss */
+.learn-more {
+  border: 2px solid;
+  color: white;
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 40px;
+  padding: 5px 60px; }
+
+/* line 103, D:/xampp/htdocs/unicorn/noex.scss */
+.learn-more:hover {
+  background-color: #DF451B;
+  border-color: #DF451B;
+  color: #fff;
+  text-decoration: none; }
+
+/* line 110, D:/xampp/htdocs/unicorn/noex.scss */
+header.header,
+.sticky-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0;
+  transition: .4s; }
+
+/* line 122, D:/xampp/htdocs/unicorn/noex.scss */
+header.header a {
+  color: white; }
+
+/* line 124, D:/xampp/htdocs/unicorn/noex.scss */
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent; }
+
+/* line 126, D:/xampp/htdocs/unicorn/noex.scss */
+.is-sticky header.header .nav > li.active a,
+header.header a:hover {
+  color: #ECD360; }
+
+/* line 127, D:/xampp/htdocs/unicorn/noex.scss */
+.is-sticky header.header {
+  padding: 0px 0;
+  background: #7194B6; }
+
+/* line 131, D:/xampp/htdocs/unicorn/noex.scss */
+.is-sticky header.header a {
+  color: #fff; }
+
+/* line 132, D:/xampp/htdocs/unicorn/noex.scss */
+.logo h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0; }
+
+/* line 138, D:/xampp/htdocs/unicorn/noex.scss */
+h2 {
+  font-size: 27px;
+  font-weight: 700; }
+
+/* line 142, D:/xampp/htdocs/unicorn/noex.scss */
+.about-text h2 {
+  margin-bottom: 70px; }
+
+/* line 143, D:/xampp/htdocs/unicorn/noex.scss */
+header.header ul.nav.navbar-nav {
+  margin-right: -30px; }
+
+/* line 144, D:/xampp/htdocs/unicorn/noex.scss */
+.about-text .about-icon {
+  font-size: 50px;
+  margin-bottom: 30px; }
+
+/* line 148, D:/xampp/htdocs/unicorn/noex.scss */
+.section-gray {
+  background: #EFEFEF; }
+
+/* line 149, D:/xampp/htdocs/unicorn/noex.scss */
+.single-service i {
+  font-size: 35px; }
+
+/* line 150, D:/xampp/htdocs/unicorn/noex.scss */
+.single-service h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0; }
+
+/* line 155, D:/xampp/htdocs/unicorn/noex.scss */
+.single-service {
+  line-height: 25px; }
+
+/* line 156, D:/xampp/htdocs/unicorn/noex.scss */
+.page-title {
+  margin-bottom: 100px; }
+
+/* line 157, D:/xampp/htdocs/unicorn/noex.scss */
+.single-article {
+  background: none repeat scroll 0 0 #7194B6;
+  padding: 40px;
+  position: relative; }
+
+/* line 164, D:/xampp/htdocs/unicorn/noex.scss */
+.single-article:hover:before,
+.portfolio-menu:before,
+.facts-wrapper:before {
+  background: none repeat scroll 0 0 #DF451B;
+  content: "";
+  height: 7px;
+  left: 50%;
+  margin-left: -37.5px;
+  position: absolute;
+  top: 0;
+  width: 75px; }
+
+/* line 174, D:/xampp/htdocs/unicorn/noex.scss */
+.single-article a {
+  color: #fff; }
+
+/* line 175, D:/xampp/htdocs/unicorn/noex.scss */
+.article-header {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-transform: uppercase; }
+
+/* line 180, D:/xampp/htdocs/unicorn/noex.scss */
+.article-title h2 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 35px;
+  margin-bottom: 30px; }
+
+/* line 187, D:/xampp/htdocs/unicorn/noex.scss */
+.article-footer {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+/* line 193, D:/xampp/htdocs/unicorn/noex.scss */
+.article-footer img.author-thumb {
+  border-radius: 50%;
+  float: left;
+  height: 60px;
+  margin-right: 20px;
+  width: 60px; }
+
+/* line 200, D:/xampp/htdocs/unicorn/noex.scss */
+.article-title {
+  min-height: 135px; }
+
+/* line 201, D:/xampp/htdocs/unicorn/noex.scss */
+.owl-nav {
+  left: 0;
+  margin-top: -15px;
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+
+/* line 208, D:/xampp/htdocs/unicorn/noex.scss */
+.owl-nav > div {
+  font-size: 30px;
+  position: absolute; }
+
+/* line 212, D:/xampp/htdocs/unicorn/noex.scss */
+.owl-nav > div.owl-prev {
+  left: -15px; }
+
+/* line 213, D:/xampp/htdocs/unicorn/noex.scss */
+.owl-nav > div.owl-next {
+  right: -15px; }
+
+/* line 214, D:/xampp/htdocs/unicorn/noex.scss */
+.article-list .owl-nav > div.owl-prev {
+  left: -35px; }
+
+/* line 215, D:/xampp/htdocs/unicorn/noex.scss */
+.article-list .owl-nav > div.owl-next {
+  right: -35px; }
+
+/* line 216, D:/xampp/htdocs/unicorn/noex.scss */
+.article-list .owl-nav > div {
+  font-size: 40px; }
+
+/* line 217, D:/xampp/htdocs/unicorn/noex.scss */
+#portfolios {
+  padding-top: 100px; }
+
+/* line 218, D:/xampp/htdocs/unicorn/noex.scss */
+.portfolio-menu {
+  text-align: center;
+  position: relative; }
+
+/* line 222, D:/xampp/htdocs/unicorn/noex.scss */
+.portfolio-menu li {
+  border: 1px solid #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 15px; }
+
+/* line 229, D:/xampp/htdocs/unicorn/noex.scss */
+.portfolio-menu:before {
+  top: -50px; }
+
+/* line 230, D:/xampp/htdocs/unicorn/noex.scss */
+.portfolio-menu li.active {
+  border-color: #DF451B;
+  color: #DF451B; }
+
+/* line 234, D:/xampp/htdocs/unicorn/noex.scss */
+.portfolio-menu ul {
+  margin: 0 0 30px;
+  padding: 0; }
+
+/* line 239, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio {
+  width: 25%; }
+
+/* Common style */
+/* line 241, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center; }
+
+/* line 247, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio h2 span {
+  font-weight: 200; }
+
+/* line 248, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio img {
+  position: relative;
+  display: block;
+  opacity: 0.8;
+  width: 100%;
+  height: auto; }
+
+/* line 255, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio figcaption {
+  padding: 0 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* line 264, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio figcaption::before,
+.single-portfolio figcaption::after {
+  pointer-events: none; }
+
+/* line 265, D:/xampp/htdocs/unicorn/noex.scss */
+.single-portfolio figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 272, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 70px;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+
+/* line 284, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio h2 {
+  float: left;
+  margin: 0; }
+
+/* line 288, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio p.icon-links a {
+  color: #3c4a50;
+  float: right;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 2px; }
+
+/* line 296, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover p.icon-links a:hover,
+figure.single-portfolio:hover p.icon-links a:focus {
+  color: #DF451B;
+  text-decoration: none; }
+
+/* line 300, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio p.description {
+  position: absolute;
+  bottom: 8em;
+  padding: 0 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */ }
+
+/* line 313, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio h2,
+figure.single-portfolio p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0); }
+
+/* line 319, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 327, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio h2 {
+  display: inline-block; }
+
+/* line 328, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover p.description {
+  opacity: 1; }
+
+/* line 331, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover figcaption,
+figure.single-portfolio:hover h2,
+figure.single-portfolio:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* line 335, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s; }
+
+/* line 339, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+/* line 343, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s; }
+
+/* line 347, D:/xampp/htdocs/unicorn/noex.scss */
+figure.single-portfolio:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
+
+/* line 351, D:/xampp/htdocs/unicorn/noex.scss */
+.icon-links {
+  margin: 0; }
+
+/* line 352, D:/xampp/htdocs/unicorn/noex.scss */
+.section-dark {
+  background: #212121;
+  color: #fff; }
+
+/* line 356, D:/xampp/htdocs/unicorn/noex.scss */
+.section-dark a {
+  color: #fff; }
+
+/* line 357, D:/xampp/htdocs/unicorn/noex.scss */
+#testimonials {
+  padding: 70px 0; }
+
+/* line 358, D:/xampp/htdocs/unicorn/noex.scss */
+.single-testimonial i {
+  margin-bottom: 25px; }
+
+/* line 359, D:/xampp/htdocs/unicorn/noex.scss */
+.author-name {
+  font-style: italic;
+  margin-top: 20px; }
+
+/* line 363, D:/xampp/htdocs/unicorn/noex.scss */
+.single-team {
+  font-size: 15px; }
+
+/* line 364, D:/xampp/htdocs/unicorn/noex.scss */
+.single-team h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  text-transform: uppercase; }
+
+/* line 370, D:/xampp/htdocs/unicorn/noex.scss */
+#facts {
+  position: relative;
+  color: #fff; }
+
+/* line 374, D:/xampp/htdocs/unicorn/noex.scss */
+.facts-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(img/facts-bg.jpg) no-repeat fixed center center;
+  background-size: cover; }
+
+/* line 383, D:/xampp/htdocs/unicorn/noex.scss */
+.facts-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .7;
+  content: ""; }
+
+/* line 393, D:/xampp/htdocs/unicorn/noex.scss */
+.facts-wrapper {
+  padding: 40px 0;
+  position: relative; }
+
+/* line 397, D:/xampp/htdocs/unicorn/noex.scss */
+.facts-wrapper:before {
+  top: inherit;
+  bottom: -7px;
+  z-index: 99; }
+
+/* line 402, D:/xampp/htdocs/unicorn/noex.scss */
+.facts-wrapper::after {
+  background: none repeat scroll 0 0 #fff;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.34;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+/* line 412, D:/xampp/htdocs/unicorn/noex.scss */
+.single-fact {
+  color: #eee;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  position: relative;
+  z-index: 99; }
+
+/* line 420, D:/xampp/htdocs/unicorn/noex.scss */
+.single-fact h2 {
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  position: relative; }
+
+/* line 425, D:/xampp/htdocs/unicorn/noex.scss */
+.single-fact h2::after {
+  background: none repeat scroll 0 0 #4d4c4b;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  margin-left: -37.5px;
+  position: absolute;
+  width: 75px; }
+
+/* line 435, D:/xampp/htdocs/unicorn/noex.scss */
+.event-title {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center; }
+
+/* line 442, D:/xampp/htdocs/unicorn/noex.scss */
+.event-title p {
+  margin-bottom: 5px; }
+
+/* line 443, D:/xampp/htdocs/unicorn/noex.scss */
+.event-title h2 {
+  color: #212121;
+  font-size: 24px; }
+
+/* line 447, D:/xampp/htdocs/unicorn/noex.scss */
+.event-content {
+  padding: 0 50px;
+  text-align: center; }
+
+/* line 451, D:/xampp/htdocs/unicorn/noex.scss */
+.single-event {
+  margin-bottom: 50px; }
+
+/* line 452, D:/xampp/htdocs/unicorn/noex.scss */
+#more-events {
+  padding: 50px 0; }
+
+/* line 453, D:/xampp/htdocs/unicorn/noex.scss */
+.single-old-event {
+  border-left: 5px solid #212121;
+  color: #555555;
+  font-size: 14px;
+  margin-left: 30px;
+  padding: 5px 0 5px 20px; }
+
+/* line 460, D:/xampp/htdocs/unicorn/noex.scss */
+.single-old-event p {
+  letter-spacing: 1px;
+  margin: 0; }
+
+/* line 464, D:/xampp/htdocs/unicorn/noex.scss */
+.single-old-event h2 {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+/* line 468, D:/xampp/htdocs/unicorn/noex.scss */
+.single-old-event a {
+  color: #212121; }
+
+/* line 469, D:/xampp/htdocs/unicorn/noex.scss */
+.twitter-feed-top {
+  font-size: 30px;
+  margin-bottom: 40px; }
+
+/* line 473, D:/xampp/htdocs/unicorn/noex.scss */
+.single-twitter-feed img {
+  margin-bottom: 35px; }
+
+/* line 474, D:/xampp/htdocs/unicorn/noex.scss */
+.author-twitter {
+  margin-top: 25px; }
+
+/* line 475, D:/xampp/htdocs/unicorn/noex.scss */
+.author-twitter a {
+  color: #212121;
+  font-weight: 700; }
+
+/* line 479, D:/xampp/htdocs/unicorn/noex.scss */
+.twitter-feed-top {
+  font-size: 30px;
+  margin-bottom: 40px; }
+
+/* line 483, D:/xampp/htdocs/unicorn/noex.scss */
+.single-twitter-feed img {
+  margin-bottom: 35px; }
+
+/* line 484, D:/xampp/htdocs/unicorn/noex.scss */
+.author-twitter {
+  margin-top: 25px; }
+
+/* line 485, D:/xampp/htdocs/unicorn/noex.scss */
+.author-twitter a {
+  color: #212121;
+  font-weight: 700; }
+
+/* line 489, D:/xampp/htdocs/unicorn/noex.scss */
+#footer {
+  background: none repeat scroll 0 0 #212121;
+  color: #999;
+  font-size: 14px; }
+
+/* line 494, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-contact h2 {
+  color: #eee;
+  font-size: 22px;
+  text-transform: uppercase; }
+
+/* line 501, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-ct-form input[type="text"],
+.footer-ct-form input[type="email"],
+.footer-ct-form textarea {
+  background: none repeat scroll 0 0 #212121;
+  border: medium none;
+  color: #fff;
+  padding: 5px 0;
+  width: 100%;
+  border-bottom: 1px solid #474747; }
+
+/* line 509, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-widget h2 {
+  color: #ddd;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+/* line 514, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-widget ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  line-height: 25px; }
+
+/* line 520, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-widget a {
+  color: #aaa; }
+
+/* line 522, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-widget a:hover,
+#footer a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 526, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-ct-form textarea {
+  height: 100px; }
+
+/* line 527, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-sep {
+  background: none repeat scroll 0 0 #474747;
+  height: 1px;
+  margin: 20px 0;
+  width: 100%; }
+
+/* line 533, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-ct-form input[type="submit"] {
+  background: url(img/send_sep.png) no-repeat scroll right center;
+  border: medium none;
+  padding: 0 15px 0 0;
+  text-transform: uppercase; }
+
+/* line 539, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-menu {
+  text-align: right;
+  margin-top: 15px; }
+
+/* line 543, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0; }
+
+/* line 548, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-menu li {
+  display: inline-block; }
+
+/* line 549, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-menu a {
+  color: #aaaaaa;
+  padding-left: 20px;
+  text-transform: uppercase; }
+
+/* line 554, D:/xampp/htdocs/unicorn/noex.scss */
+a {
+  color: #DF451B; }
+
+/* line 556, D:/xampp/htdocs/unicorn/noex.scss */
+.footer-copyright span.seprator,
+.footer-copyright i.fa {
+  display: inline-block;
+  padding: 0 5px; }
+
+/* line 561, D:/xampp/htdocs/unicorn/noex.scss */
+#tweet ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=noex.css.map */
