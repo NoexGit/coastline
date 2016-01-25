@@ -118,7 +118,9 @@ header.header,
     font-weight: 500;
     padding: 20px 0;
     transition: .4s;
+
 }
+
 header.header a { color: $text }
 .nav > li > a:hover,
 .nav > li > a:focus { background-color: transparent }
@@ -128,6 +130,33 @@ header.header a:hover { color: $accent }
     padding: 0px 0;
     background: $background ;
 }
+
+
+@media (max-width:768px){
+
+    header.header {
+         background: $background  !important;
+
+    }
+    header.header a
+   {
+
+        color: white !important;
+    }
+     header.header a:hover
+   {
+
+        color:$accent!important;
+    }
+     header.header span{
+         background: white  !important;
+
+    }
+
+}
+
+
+
 .is-sticky header.header a { color: #fff }
 .logo h1 {
     font-size: 18px;
@@ -350,7 +379,7 @@ figure.single-portfolio:hover p.icon-links a:first-child {
 }
 .icon-links { margin: 0 }
 .section-dark {
-    background: #212121;
+    background: $background;
     color: #fff;
 }
 .section-dark a { color: #fff }
