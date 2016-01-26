@@ -2513,6 +2513,7 @@ Copyright (c) 2014 Daniel Eden
 .rollOut {
   -webkit-animation-name: rollOut;
           animation-name: rollOut;
+
 }
 
 @-webkit-keyframes zoomIn {
@@ -2542,6 +2543,8 @@ Copyright (c) 2014 Daniel Eden
 .zoomIn {
   -webkit-animation-name: zoomIn;
           animation-name: zoomIn;
+      -webkit-animation-delay: 3.4s;
+     animation-delay: 0.4s;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -2706,6 +2709,8 @@ Copyright (c) 2014 Daniel Eden
 .zoomInUp {
   -webkit-animation-name: zoomInUp;
           animation-name: zoomInUp;
+
+
 }
 
 @-webkit-keyframes zoomOut {

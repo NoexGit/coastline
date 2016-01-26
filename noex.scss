@@ -75,6 +75,7 @@ h3{
     font-size: 18px;
     line-height: 30px;
 }
+
 .slide-text h1 {
     font-size: 82px;
     font-weight: 700;
@@ -467,6 +468,10 @@ figure.single-portfolio:hover p.icon-links a:first-child {
     margin-bottom: 40px;
     margin-top: 60px;
     text-align: center;
+}
+.left-text{
+     text-align:left !important;
+    float: left;
 }
 .event-title p { margin-bottom: 5px }
 .event-title h2 {
