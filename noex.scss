@@ -520,6 +520,11 @@ figure.single-portfolio:hover p.icon-links a:first-child {
     color: #212121;
     font-weight: 700;
 }
+.steps {
+    border-bottom: 1px solid $background;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 #footer {
     background: none repeat scroll 0 0 #212121;
     color: #999;
