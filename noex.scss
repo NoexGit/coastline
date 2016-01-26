@@ -37,6 +37,14 @@ body {
     font-size: 16px;
     line-height: 30px;
 }
+.divider{
+    height: 1px;
+    background: $background;
+    width: 400px;
+    margin:40px 0 0 200px;
+    float: left;
+
+}
 h1,
 h3{
     color:$text ;
@@ -521,9 +529,9 @@ figure.single-portfolio:hover p.icon-links a:first-child {
     font-weight: 700;
 }
 .steps {
-    border-bottom: 1px solid $background;
-    padding-bottom: 30px;
-    padding-top: 30px;
+
+    padding-bottom: 50px;
+
 }
 #footer {
     background: none repeat scroll 0 0 #212121;
